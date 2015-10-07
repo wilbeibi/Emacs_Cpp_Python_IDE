@@ -10,6 +10,7 @@
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (setq package-archive-enable-alist '(("melpa" deft magit)))
 
+(setq tab-width 4)
 ;; UI
 (load-theme 'deeper-blue t)
 
@@ -37,6 +38,11 @@
 
 ;; show buffer name
 (setq frame-title-format "%b")
+
+;; F2 Set mark
+(global-set-key [(f2)] 'set-mark-command)
+;; F5 goto line
+(global-set-key [f5] 'goto-line)
 
 ;; Powerline
 (require 'powerline)
