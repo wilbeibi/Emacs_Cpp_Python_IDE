@@ -17,6 +17,11 @@
 (set-face-attribute
  'default nil :font "Monaco 13")
 
+;; Chinese font
+(dolist (charset '(kana han symbol cjk-misc bopomofo))
+  (set-fontset-font (frame-parameter nil 'font)
+                    charset
+                    (font-spec :family "PingFang SC" :size 13)))
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
@@ -35,8 +40,6 @@
 
 ;; Powerline
 (require 'powerline)
-(setq powerline-color1 "#2980B9")
-(setq powerline-color2 "#0066FF")
 
 (setq powerline-arrow-shape 'arrow14) ;; mirrored arrows
 
@@ -54,5 +57,10 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (autoload 'ibuffer "ibuffer" "List buffers." t)
 
+;; deft
+(setq deft-extension "org")
+(setq deft-text-mode 'org-mode)
+(setq deft-directory "~/Dropbox/Notes")
+(setq deft-use-filename-as-title t)
 
 (provide 'wil-utils)

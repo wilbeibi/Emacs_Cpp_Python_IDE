@@ -10,4 +10,14 @@
 
 (setenv "PYTHONPATH" "/usr/local/bin/python2")
 
+;; fix pyflakes error
+(custom-set-variables
+ '(python-check-command "/usr/local/bin/pyflakes"))
+
+;; Haskell
+(add-hook 'haskell-mode-hook 'turn-on-haskell-unicode-input-method)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-simple-indent)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indent)
+(add-hook 'haskell-mode-hook 'turn-on-haskell-indentation)
+
 (provide 'wil-python)
