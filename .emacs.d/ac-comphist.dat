@@ -1,2 +1,14 @@
-((("Queue" .
+((("python" .
+   [1 0 0 0 0 0])
+  ("projectile-mode-line" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("Projectile" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("c-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("add-hook" .
+   [0 0 0 0 0 0 0 1])
+  ("projectile-global-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Queue" .
    [1 0 0 1 0])))

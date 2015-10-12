@@ -63,10 +63,18 @@
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 (autoload 'ibuffer "ibuffer" "List buffers." t)
 
+;; Projectile
+(projectile-global-mode)
+(add-hook 'c-mode-hook 'projectile-mode)
+(add-hook 'c++-mode-hook 'projectile-mode)
+(add-hook 'python-mode-hook 'projectile-mode)
+
 ;; deft
+(setq deft-use-filename-as-title t)
 (setq deft-extension "org")
 (setq deft-text-mode 'org-mode)
 (setq deft-directory "~/Dropbox/Notes")
 (setq deft-use-filename-as-title t)
 
+(desktop-save-mode 1)
 (provide 'wil-utils)
