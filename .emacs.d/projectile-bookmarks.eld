@@ -1,0 +1,1 @@
+("~/Dropbox/Programs/C/git_core/" "~/Dropbox/")
