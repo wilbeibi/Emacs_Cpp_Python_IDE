@@ -1,0 +1,118 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Tue Oct 13 22:43:40 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22045 60300 891820 0) (desktop . "206") "hongyis@Hongyis-MacBook-Pro.local" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-*-Monaco-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "gray80") (background-color . "#181a26") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha . 90) (fullscreen) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "green") (environment) (frameset--id . "94A0-034C-BA5B-5535") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "Hongyis-MacBook-Pro.local") (explicit-name) (tool-bar-position . top) (height . 46) (width . 178) (left . 0) (top . 23)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 8) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 160) (min-pixel-height-ignore . 51) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 17) (min-pixel-width-safe . 32)) hc (pixel-width . 1440) (pixel-height . 765) (total-width . 180) (total-height . 45) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 752) (pixel-height . 765) (total-width . 94) (total-height . 45) (normal-height . 1.0) (normal-width . 0.5222222222222221) (buffer "wil-cpp.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 2282) (start . 1270))) (leaf (last . t) (pixel-width . 688) (pixel-height . 765) (total-width . 86) (total-height . 45) (normal-height . 1.0) (normal-width . 0.4777777777777778) (buffer "init-db.c" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 966) (start . 26)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("projectile" "cedet" "f12" "F12" "cedet"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/Users/hongyis/.emacs.d/config/wil-cpp.el" "/Users/hongyis/Dropbox/Notes/EmacsRef.org" "/Users/hongyis/.emacs.d/config/wil-cpp.el" "/Users/hongyis/.emacs.d/config/wil-org-mode.el" "/Users/hongyis/.emacs" "/Users/hongyis/Dropbox/Notes/AltaVault.org" "/Users/hongyis/Dropbox/Programs/C/k_r.c" "/Users/hongyis/.emacs.d/config/wil-cpp.el" "/Users/hongyis/Dropbox/Notes/EmacsRef.org"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/hongyis/.emacs.d/config/wil-cpp.el"
+  "wil-cpp.el"
+  'emacs-lisp-mode
+  '(linum-mode projectile-mode auto-complete-mode yas-minor-mode)
+  2282
+  '(2714 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/hongyis/Dropbox/Programs/C/git_core/init-db.c"
+  "init-db.c"
+  'c-mode
+  '(abbrev-mode linum-mode projectile-mode auto-complete-mode yas-minor-mode flymake-mode hs-minor-mode)
+  966
+  '(966 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/usr/include/stdio.h"
+  "stdio.h"
+  'c-mode
+  '(abbrev-mode linum-mode projectile-mode auto-complete-mode yas-minor-mode flymake-mode)
+  9544
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/hongyis/Dropbox/Notes/EmacsRef.org"
+  "EmacsRef.org"
+  'org-mode
+  '(linum-mode projectile-mode yas-minor-mode writegood-mode flyspell-mode)
+  4933
+  '(4433 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/usr/include/sys/stat.h"
+  "stat.h"
+  'c-mode
+  '(abbrev-mode linum-mode projectile-mode auto-complete-mode yas-minor-mode flymake-mode)
+  14935
+  '(nil nil)
+  t
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/hongyis/Dropbox/Programs/C/git_core/cache.h"
+  "cache.h"
+  'c-mode
+  '(abbrev-mode linum-mode projectile-mode auto-complete-mode yas-minor-mode flymake-mode)
+  2
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/hongyis/Dropbox/Programs/C/git_core/Makefile"
+  "Makefile"
+  'makefile-bsdmake-mode
+  '(linum-mode projectile-mode yas-minor-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/hongyis/Dropbox/Notes/AltaVault.org"
+  "AltaVault.org"
+  'org-mode
+  '(linum-mode projectile-mode yas-minor-mode writegood-mode flyspell-mode)
+  1349
+  '(1208 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/hongyis/Dropbox/Programs/C/k_r.c"
+  "k_r.c"
+  'c-mode
+  '(abbrev-mode linum-mode projectile-mode auto-complete-mode yas-minor-mode flymake-mode)
+  40
+  '(76 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+

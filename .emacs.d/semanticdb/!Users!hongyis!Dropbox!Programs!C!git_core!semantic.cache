@@ -1,0 +1,243 @@
+;; Object git_core/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "git_core/"
+  :tables
+  (list
+    (semanticdb-table "Makefile"
+      :major-mode 'makefile-bsdmake-mode
+      :tags 
+        '( ("CFLAGS" variable (:default-value ("-g")) nil [1 11])
+            ("CC" variable (:default-value ("gcc")) nil [11 18])
+            ("PROG" variable (:default-value ("update-cache" "show-diff" "init-db" "write-tree" "read-tree" "commit-tree" "cat-file")) nil [19 97])
+            ("all" function (:arguments ("$(PROG)")) nil [98 111])
+            ("install" function (:arguments ("$(PROG)")) nil [112 159])
+            ("LIBS" variable (:default-value ("-lssl")) nil [160 172])
+            ("init-db" function (:arguments ("init-db.o")) nil [173 192])
+            ("update-cache" function (:arguments ("update-cache.o" "read-cache.o")) nil [193 304])
+            ("show-diff" function (:arguments ("show-diff.o" "read-cache.o")) nil [305 404])
+            ("write-tree" function (:arguments ("write-tree.o" "read-cache.o")) nil [405 508])
+            ("read-tree" function (:arguments ("read-tree.o" "read-cache.o")) nil [509 608])
+            ("commit-tree" function (:arguments ("commit-tree.o" "read-cache.o")) nil [609 716])
+            ("cat-file" function (:arguments ("cat-file.o" "read-cache.o")) nil [717 812])
+            ("read-cache.o" function (:arguments ("cache.h")) nil [813 835])
+            ("show-diff.o" function (:arguments ("cache.h")) nil [835 856])
+            ("clean" function nil nil [857 899])
+            ("backup" function (:arguments ("clean")) nil [900 958]))          
+      :file "Makefile"
+      :pointmax 958
+      :fsize 957
+      :lastmodtime '(21255 524 0 0)
+      :unmatched-syntax '((shell-command 915 . 957) (bol 914 . 914)))
+    (semanticdb-table "init-db.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("cache.h" include nil nil [1 19])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [173 182])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [183 195]))                  
+                :type "int")
+                nil [164 1410]))          
+      :file "init-db.c"
+      :pointmax 1411
+      :fsize 1410
+      :lastmodtime '(22045 59281 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "cache.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("CACHE_H" variable (:constant-flag t) nil [25 32])
+            ("stdio.h" include (:system-flag t) nil [34 52])
+            ("sys/stat.h" include (:system-flag t) nil [53 74])
+            ("fcntl.h" include (:system-flag t) nil [75 93])
+            ("stddef.h" include (:system-flag t) nil [94 113])
+            ("stdlib.h" include (:system-flag t) nil [114 133])
+            ("stdarg.h" include (:system-flag t) nil [134 153])
+            ("errno.h" include (:system-flag t) nil [154 172])
+            ("sys/mman.h" include (:system-flag t) nil [173 194])
+            ("openssl/sha.h" include (:system-flag t) nil [196 220])
+            ("zlib.h" include (:system-flag t) nil [221 238])
+            ("CACHE_SIGNATURE" variable (:constant-flag t) nil [472 487])
+            ("cache_header" type
+               (:members 
+                  ( ("signature" variable (:type "unsigned int") (reparse-symbol classsubparts) [535 558])
+                    ("version" variable (:type "unsigned int") (reparse-symbol classsubparts) [560 581])
+                    ("entries" variable (:type "unsigned int") (reparse-symbol classsubparts) [583 604])
+                    ("sha1" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [606 629]))                  
+                :type "struct")
+                nil [512 632])
+            ("cache_time" type
+               (:members 
+                  ( ("sec" variable (:type "unsigned int") (reparse-symbol classsubparts) [815 832])
+                    ("nsec" variable (:type "unsigned int") (reparse-symbol classsubparts) [834 852]))                  
+                :type "struct")
+                nil [794 855])
+            ("cache_entry" type
+               (:members 
+                  ( ("ctime" variable (:type ("cache_time" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1047 1071])
+                    ("mtime" variable (:type ("cache_time" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol classsubparts) [1073 1097])
+                    ("st_dev" variable (:type "unsigned int") (reparse-symbol classsubparts) [1099 1119])
+                    ("st_ino" variable (:type "unsigned int") (reparse-symbol classsubparts) [1121 1141])
+                    ("st_mode" variable (:type "unsigned int") (reparse-symbol classsubparts) [1143 1164])
+                    ("st_uid" variable (:type "unsigned int") (reparse-symbol classsubparts) [1166 1186])
+                    ("st_gid" variable (:type "unsigned int") (reparse-symbol classsubparts) [1188 1208])
+                    ("st_size" variable (:type "unsigned int") (reparse-symbol classsubparts) [1210 1231])
+                    ("sha1" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [1233 1256])
+                    ("namelen" variable (:type "unsigned short") (reparse-symbol classsubparts) [1258 1281])
+                    ("name" variable
+                       (:dereference 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [1283 1305]))                  
+                :type "struct")
+                nil [1025 1308])
+            ("sha1_file_directory" variable
+               (:pointer 1
+                :constant-flag t
+                :type "char")
+                nil [1310 1342])
+            ("active_cache" variable
+               (:pointer 2
+                :type ("cache_entry" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [1343 1377])
+            ("active_nr" variable (:type "unsigned int") nil [1378 1415])
+            ("active_alloc" variable (:type "unsigned int") nil [1378 1415])
+            ("DB_ENVIRONMENT" variable (:constant-flag t) nil [1425 1439])
+            ("DEFAULT_DB_ENVIRONMENT" variable (:constant-flag t) nil [1470 1492])
+            ("cache_entry_size" variable (:constant-flag t) nil [1522 1538])
+            ("ce_size" variable (:constant-flag t) nil [1607 1614])
+            ("alloc_nr" variable (:constant-flag t) nil [1660 1668])
+            ("read_cache" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1749 1754]))                  
+                :type "int")
+                nil [1727 1755])
+            ("sha1_file_name" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("sha1" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [1858 1878]))                  
+                :type "char")
+                nil [1830 1879])
+            ("write_sha1_buffer" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("sha1" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [1958 1978])
+                    ("buf" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1979 1989])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1990 2008]))                  
+                :type "int")
+                nil [1929 2009])
+            ("read_sha1_file" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("sha1" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [2115 2135])
+                    ("type" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2136 2147])
+                    ("size" variable
+                       (:pointer 1
+                        :type "unsigned long")
+                        (reparse-symbol arg-sub-list) [2148 2168]))                  
+                :type "void")
+                nil [2086 2169])
+            ("write_sha1_file" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("buf" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2197 2207])
+                    ("len" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2208 2221]))                  
+                :type "int")
+                nil [2170 2222])
+            ("get_sha1_hex" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("hex" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2294 2304])
+                    ("sha1" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [2305 2325]))                  
+                :type "int")
+                nil [2270 2326])
+            ("sha1_to_hex" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("sha1" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol arg-sub-list) [2352 2372]))                  
+                :type "char")
+                nil [2327 2373])
+            ("usage" function
+               (:prototype-flag t
+                :typemodifiers ("extern")
+                :arguments 
+                  ( ("err" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2445 2461]))                  
+                :type "void")
+                nil [2427 2462]))          
+      :file "cache.h"
+      :pointmax 2485
+      :fsize 2484
+      :lastmodtime '(21255 607 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("DB_ENVIRONMENT" . ((string "\"SHA1_FILE_DIRECTORY\"" 1440 . 1461)))
+          ("cache_entry_size" (spp-arg-list ("len") 1538 . 1543) . ((semantic-list "((offsetof(struct cache_entry,name) + (len) + 8) & ~7)" 1544 . 1598)))
+          ("DEFAULT_DB_ENVIRONMENT" . ((string "\".dircache/objects\"" 1493 . 1512)))
+          ("CACHE_H")
+          ("alloc_nr" (spp-arg-list ("x") 1668 . 1671) . ((semantic-list "(((x)+16)*3/2)" 1672 . 1686)))
+          ("CACHE_SIGNATURE" . ((number "0x44495243" 488 . 498)))
+          ("ce_size" (spp-arg-list ("ce") 1614 . 1618) . ((symbol "cache_entry_size" 1619 . 1635) (semantic-list "((ce)->namelen)" 1635 . 1650)))
+          )
+))
+  :file "!Users!hongyis!Dropbox!Programs!C!git_core!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

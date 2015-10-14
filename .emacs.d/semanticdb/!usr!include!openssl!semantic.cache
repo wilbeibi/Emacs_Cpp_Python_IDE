@@ -1,0 +1,380 @@
+;; Object openssl/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "openssl/"
+  :tables
+  (list
+    (semanticdb-table "sha.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("HEADER_SHA_H" variable (:constant-flag t) nil [3223 3235])
+            ("AvailabilityMacros.h" include (:system-flag t) nil [3237 3268])
+            ("openssl/e_os2.h" include (:system-flag t) nil [3270 3296])
+            ("stddef.h" include (:system-flag t) nil [3297 3316])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8666 8712])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8555 8601])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8434 8480])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8336 8382])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8226 8272])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8148 8194])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [8027 8073])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7929 7975])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [7819 7865])
+            ("SHA512_CTX" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("SHA512state_st" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [7566 7753])
+            ("SHA512state_st" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("h" variable
+                       (:dereference 1
+                        :type "unsigned long long")
+                        (reparse-symbol classsubparts) [7600 7616])
+                    ("Nl" variable (:type "unsigned long long") (reparse-symbol classsubparts) [7618 7635])
+                    ("Nh" variable (:type "unsigned long long") (reparse-symbol classsubparts) [7618 7635])
+                    ("u" variable (:type ("" type
+                         (:members 
+                            ( ("d" variable
+                                 (:dereference 1
+                                  :type "unsigned long long")
+                                  (reparse-symbol classsubparts) [7647 7672])
+                              ("p" variable
+                                 (:dereference 1
+                                  :type "unsigned char")
+                                  (reparse-symbol classsubparts) [7675 7706]))                            
+                          :type "union")
+                          nil nil)) (reparse-symbol classsubparts) [7637 7712])
+                    ("num" variable (:type "unsigned int") (reparse-symbol classsubparts) [7714 7738])
+                    ("md_len" variable (:type "unsigned int") (reparse-symbol classsubparts) [7714 7738]))                  )
+                (reparse-symbol extern-c-contents) [7566 7753])
+            ("U64" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7540 7543])
+            ("SHA_LONG64" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7502 7512])
+            ("SHA512_CBLOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7142 7155])
+            ("SHA512_DIGEST_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6918 6938])
+            ("SHA384_DIGEST_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [6886 6906])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6823 6869])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6712 6758])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6591 6637])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6493 6539])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6383 6429])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6305 6351])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6184 6230])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [6086 6132])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5976 6022])
+            ("SHA256_CTX" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("SHA256state_st" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [5783 5917])
+            ("SHA256state_st" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("h" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [5817 5831])
+                    ("Nl" variable (:type "unsigned int") (reparse-symbol classsubparts) [5833 5848])
+                    ("Nh" variable (:type "unsigned int") (reparse-symbol classsubparts) [5833 5848])
+                    ("data" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [5850 5876])
+                    ("num" variable (:type "unsigned int") (reparse-symbol classsubparts) [5878 5902])
+                    ("md_len" variable (:type "unsigned int") (reparse-symbol classsubparts) [5878 5902]))                  )
+                (reparse-symbol extern-c-contents) [5783 5917])
+            ("SHA256_DIGEST_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5758 5778])
+            ("SHA224_DIGEST_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5726 5746])
+            ("SHA256_CBLOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [5585 5598])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5522 5568])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5416 5462])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5296 5342])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5203 5249])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [5098 5144])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4994 5040])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4889 4935])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4770 4816])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4678 4724])
+            ("DEPRECATED_IN_MAC_OS_X_VERSION_10_7_AND_LATER" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int")
+                (reparse-symbol extern-c-contents) [4574 4620])
+            ("SHA_CTX" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("SHAstate_st" type (:type "struct") nil nil))
+                (reparse-symbol extern-c-contents) [4285 4416])
+            ("SHAstate_st" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "struct"
+                :members 
+                  ( ("h0" variable (:type "unsigned int") (reparse-symbol classsubparts) [4316 4340])
+                    ("h1" variable (:type "unsigned int") (reparse-symbol classsubparts) [4316 4340])
+                    ("h2" variable (:type "unsigned int") (reparse-symbol classsubparts) [4316 4340])
+                    ("h3" variable (:type "unsigned int") (reparse-symbol classsubparts) [4316 4340])
+                    ("h4" variable (:type "unsigned int") (reparse-symbol classsubparts) [4316 4340])
+                    ("Nl" variable (:type "unsigned int") (reparse-symbol classsubparts) [4342 4357])
+                    ("Nh" variable (:type "unsigned int") (reparse-symbol classsubparts) [4342 4357])
+                    ("data" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [4359 4385])
+                    ("num" variable (:type "unsigned int") (reparse-symbol classsubparts) [4387 4404]))                  )
+                (reparse-symbol extern-c-contents) [4285 4416])
+            ("SHA_DIGEST_LENGTH" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4263 4280])
+            ("SHA_LAST_BLOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4224 4238])
+            ("SHA_CBLOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4090 4100])
+            ("SHA_LBLOCK" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4068 4078])
+            ("SHA_LONG" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4030 4038]))          
+      :file "sha.h"
+      :pointmax 8758
+      :fsize 8757
+      :lastmodtime '(21928 24976 0 0)
+      :unmatched-syntax '((semantic-list 8623 . 8665) (symbol 8607 . 8623) (VOID 8602 . 8606) (semantic-list 8502 . 8554) (symbol 8496 . 8502) (punctuation 8495 . 8496) (CHAR 8490 . 8494) (UNSIGNED 8481 . 8489) (semantic-list 8399 . 8433) (symbol 8387 . 8399) (INT 8383 . 8386) (semantic-list 8290 . 8335) (symbol 8277 . 8290) (INT 8273 . 8276) (semantic-list 8210 . 8225) (symbol 8199 . 8210) (INT 8195 . 8198) (semantic-list 8095 . 8147) (symbol 8089 . 8095) (punctuation 8088 . 8089) (CHAR 8083 . 8087) (UNSIGNED 8074 . 8082) (semantic-list 7992 . 8026) (symbol 7980 . 7992) (INT 7976 . 7979) (semantic-list 7883 . 7928) (symbol 7870 . 7883) (INT 7866 . 7869) (semantic-list 7803 . 7818) (symbol 7792 . 7803) (INT 7788 . 7791) (semantic-list 6780 . 6822) (symbol 6764 . 6780) (VOID 6759 . 6763) (semantic-list 6659 . 6711) (symbol 6653 . 6659) (punctuation 6652 . 6653) (CHAR 6647 . 6651) (UNSIGNED 6638 . 6646) (semantic-list 6556 . 6590) (symbol 6544 . 6556) (INT 6540 . 6543) (semantic-list 6447 . 6492) (symbol 6434 . 6447) (INT 6430 . 6433) (semantic-list 6367 . 6382) (symbol 6356 . 6367) (INT 6352 . 6355) (semantic-list 6252 . 6304) (symbol 6246 . 6252) (punctuation 6245 . 6246) (CHAR 6240 . 6244) (UNSIGNED 6231 . 6239) (semantic-list 6149 . 6183) (symbol 6137 . 6149) (INT 6133 . 6136) (semantic-list 6040 . 6085) (symbol 6027 . 6040) (INT 6023 . 6026) (semantic-list 5960 . 5975) (symbol 5949 . 5960) (INT 5945 . 5948) (semantic-list 5482 . 5521) (symbol 5468 . 5482) (VOID 5463 . 5467) (semantic-list 5362 . 5415) (symbol 5358 . 5362) (punctuation 5357 . 5358) (CHAR 5352 . 5356) (UNSIGNED 5343 . 5351) (semantic-list 5264 . 5295) (symbol 5254 . 5264) (INT 5250 . 5253) (semantic-list 5160 . 5202) (symbol 5149 . 5160) (INT 5145 . 5148) (semantic-list 5085 . 5097) (symbol 5076 . 5085) (INT 5072 . 5075) (semantic-list 4954 . 4993) (symbol 4941 . 4954) (VOID 4936 . 4940) (semantic-list 4835 . 4888) (symbol 4832 . 4835) (punctuation 4831 . 4832) (CHAR 4826 . 4830) (UNSIGNED 4817 . 4825) (semantic-list 4738 . 4769) (symbol 4729 . 4738) (INT 4725 . 4728) (semantic-list 4635 . 4677) (symbol 4625 . 4635) (INT 4621 . 4624) (semantic-list 4561 . 4573) (symbol 4553 . 4561) (INT 4549 . 4552))
+      :lexical-table 
+        '(("HEADER_SHA_H")
+          ("SHA_LONG64" . 
+              ((UNSIGNED "unsigned" 7513 . 7521) (LONG "long" 7522 . 7526) (LONG "long" 7527 . 7531)))
+          ("SHA_LBLOCK" . ((number "16" 4079 . 4081)))
+          ("SHA384_DIGEST_LENGTH" . ((number "48" 6907 . 6909)))
+          ("SHA256_DIGEST_LENGTH" . ((number "32" 5779 . 5781)))
+          ("U64" (spp-arg-list ("C") 7543 . 7546) . ((spp-symbol-merge ((symbol "C" 7551 . 7552) (symbol "ULL" 7554 . 7557)) 7551 . 7557)))
+          ("SHA512_DIGEST_LENGTH" . ((number "64" 6939 . 6941)))
+          ("SHA_DIGEST_LENGTH" . ((number "20" 4281 . 4283)))
+          ("SHA512_CBLOCK" . ((semantic-list "(SHA_LBLOCK*8)" 7156 . 7170)))
+          ("SHA_LONG" . ((UNSIGNED "unsigned" 4039 . 4047) (INT "int" 4048 . 4051)))
+          ("SHA224_DIGEST_LENGTH" . ((number "28" 5747 . 5749)))
+          ("SHA_LAST_BLOCK" . ((semantic-list "(SHA_CBLOCK-8)" 4240 . 4254)))
+          ("SHA_CBLOCK" . ((semantic-list "(SHA_LBLOCK*4)" 4101 . 4115)))
+          ("SHA256_CBLOCK" . ((semantic-list "(SHA_LBLOCK*4)" 5599 . 5613)))
+          )
+)
+    (semanticdb-table "e_os2.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("openssl/opensslconf.h" include (:system-flag t) nil [2650 2682])
+            ("HEADER_E_OS2_H" variable (:constant-flag t) nil [2715 2729])
+            ("OPENSSL_GLOBAL_REF" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9549 9567])
+            ("OPENSSL_DECLARE_GLOBAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9471 9493])
+            ("OPENSSL_IMPLEMENT_GLOBAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [9391 9415])
+            ("OPENSSL_EXTERN" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [8648 8662])
+            ("OPENSSL_GLOBAL" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [8618 8632])
+            ("OPENSSL_IMPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [8587 8601])
+            ("OPENSSL_EXPORT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [8556 8570])
+            ("OPENSSL_DECLARE_EXIT" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7292 7312])
+            ("OPENSSL_UNISTD_IO" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [7250 7267])
+            ("OPENSSL_SYS_UNIX" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3052 3068]))          
+      :file "e_os2.h"
+      :pointmax 9633
+      :fsize 9632
+      :lastmodtime '(21928 24738 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("OPENSSL_EXTERN" . ((symbol "OPENSSL_IMPORT" 8663 . 8677)))
+          ("OPENSSL_DECLARE_GLOBAL" (spp-arg-list ("type" "name") 9493 . 9504) . 
+              ((symbol "OPENSSL_EXPORT" 9505 . 9519) (symbol "type" 9520 . 9524) (spp-symbol-merge ((symbol "_shadow_" 9525 . 9533) (symbol "name" 9535 . 9539)) 9525 . 9539)))
+          ("OPENSSL_UNISTD_IO" . ((symbol "OPENSSL_UNISTD" 7268 . 7282)))
+          ("OPENSSL_EXPORT" . ((EXTERN "extern" 8571 . 8577)))
+          ("OPENSSL_GLOBAL")
+          ("OPENSSL_IMPLEMENT_GLOBAL" (spp-arg-list ("type" "name") 9415 . 9426) . 
+              ((symbol "OPENSSL_GLOBAL" 9427 . 9441) (symbol "type" 9442 . 9446) (spp-symbol-merge ((symbol "_shadow_" 9447 . 9455) (symbol "name" 9457 . 9461)) 9447 . 9461)))
+          ("HEADER_E_OS2_H")
+          ("OPENSSL_SYS_UNIX")
+          ("OPENSSL_IMPORT" . ((EXTERN "extern" 8602 . 8608)))
+          ("OPENSSL_GLOBAL_REF" (spp-arg-list ("name") 9567 . 9573) . ((spp-symbol-merge ((symbol "_shadow_" 9574 . 9582) (symbol "name" 9584 . 9588)) 9574 . 9588)))
+          ("OPENSSL_DECLARE_EXIT")
+          )
+)
+    (semanticdb-table "opensslconf.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("OPENSSL_SYSNAME_MACOSX" variable (:constant-flag t) nil [194 216])
+            ("OPENSSL_NO_CAMELLIA" variable (:constant-flag t) nil [296 315])
+            ("OPENSSL_NO_CAPIENG" variable (:constant-flag t) nil [359 377])
+            ("OPENSSL_NO_CMS" variable (:constant-flag t) nil [417 431])
+            ("OPENSSL_NO_GMP" variable (:constant-flag t) nil [471 485])
+            ("OPENSSL_NO_IDEA" variable (:constant-flag t) nil [664 679])
+            ("OPENSSL_NO_JPAKE" variable (:constant-flag t) nil [1013 1029])
+            ("OPENSSL_NO_KRB5" variable (:constant-flag t) nil [1070 1085])
+            ("OPENSSL_NO_RFC3779" variable (:constant-flag t) nil [1129 1147])
+            ("OPENSSL_THREADS" variable (:constant-flag t) nil [1228 1243])
+            ("OPENSSL_NO_HW" variable (:constant-flag t) nil [1282 1295])
+            ("OPENSSL_NO_STATIC_ENGINE" variable (:constant-flag t) nil [1345 1369])
+            ("OPENSSL_UNISTD" variable (:constant-flag t) nil [3024 3038]))          
+      :file "opensslconf.h"
+      :pointmax 7597
+      :fsize 7596
+      :lastmodtime '(21928 24738 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("OPENSSL_NO_KRB5")
+          ("OPENSSL_NO_RFC3779")
+          ("OPENSSL_NO_STATIC_ENGINE")
+          ("OPENSSL_THREADS")
+          ("OPENSSL_NO_CAPIENG")
+          ("OPENSSL_UNISTD" . 
+              ((punctuation "<" 3039 . 3040) (symbol "unistd" 3040 . 3046) (punctuation "." 3046 . 3047) (symbol "h" 3047 . 3048) (punctuation ">" 3048 . 3049)))
+          ("OPENSSL_NO_GMP")
+          ("OPENSSL_NO_JPAKE")
+          ("OPENSSL_NO_CAMELLIA")
+          ("OPENSSL_NO_IDEA")
+          ("OPENSSL_NO_HW")
+          ("OPENSSL_SYSNAME_MACOSX")
+          ("OPENSSL_NO_CMS")
+          )
+))
+  :file "!usr!include!openssl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,4 +1,6 @@
-((("python" .
+((("pop-global-mark" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("python" .
    [1 0 0 0 0 0])
   ("projectile-mode-line" .
    [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])

@@ -1,0 +1,73 @@
+;; Object machine/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "machine/"
+  :tables
+  (list
+    (semanticdb-table "types.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_BSD_MACHINE_TYPES_H_" variable (:constant-flag t) nil [1434 1455])
+            ("i386/types.h" include nil nil [1503 1526]))          
+      :file "types.h"
+      :pointmax 1610
+      :fsize 1609
+      :lastmodtime '(21944 39945 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_MACHINE_TYPES_H_")
+          )
+)
+    (semanticdb-table "_types.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_BSD_MACHINE__TYPES_H_" variable (:constant-flag t) nil [1369 1391])
+            ("i386/_types.h" include nil nil [1439 1463]))          
+      :file "_types.h"
+      :pointmax 1548
+      :fsize 1547
+      :lastmodtime '(21944 39946 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_MACHINE__TYPES_H_")
+          )
+)
+    (semanticdb-table "endian.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_BSD_MACHINE_ENDIAN_H_" variable (:constant-flag t) nil [1435 1457])
+            ("i386/endian.h" include nil nil [1505 1529]))          
+      :file "endian.h"
+      :pointmax 1614
+      :fsize 1613
+      :lastmodtime '(21944 39944 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_MACHINE_ENDIAN_H_")
+          )
+)
+    (semanticdb-table "signal.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("_BSD_MACHINE_SIGNAL_H_" variable (:constant-flag t) nil [1369 1391])
+            ("i386/signal.h" include nil nil [1439 1463]))          
+      :file "signal.h"
+      :pointmax 1548
+      :fsize 1547
+      :lastmodtime '(21944 39945 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_BSD_MACHINE_SIGNAL_H_")
+          )
+)
+    (semanticdb-table "_mcontext.h"
+      :major-mode 'c-mode
+      :tags 
+        '( ("i386/_mcontext.h" include nil nil [1377 1404]))          
+      :file "_mcontext.h"
+      :pointmax 1452
+      :fsize 1451
+      :lastmodtime '(21944 39946 0 0)
+      :unmatched-syntax nil))
+  :file "!usr!include!machine!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

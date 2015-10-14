@@ -1,0 +1,49 @@
+;; Object C/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "C/"
+  :tables
+  (list
+    (semanticdb-table "k_r.c"
+      :major-mode 'c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("string.h" include (:system-flag t) nil [20 39])
+            ("swap" function
+               (:arguments 
+                  ( ("v" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [51 59])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [60 66])
+                    ("j" variable (:type "int") (reparse-symbol arg-sub-list) [67 73]))                  
+                :type "void")
+                nil [41 133])
+            ("qqsort" function
+               (:arguments 
+                  ( ("v" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [147 155])
+                    ("left" variable (:type "int") (reparse-symbol arg-sub-list) [156 165])
+                    ("right" variable (:type "int") (reparse-symbol arg-sub-list) [166 176]))                  
+                :type "void")
+                nil [135 638])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [650 659])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [660 679]))                  
+                :type "int")
+                nil [641 913]))          
+      :file "k_r.c"
+      :pointmax 928
+      :fsize 927
+      :lastmodtime '(22045 18744 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!hongyis!Dropbox!Programs!C!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

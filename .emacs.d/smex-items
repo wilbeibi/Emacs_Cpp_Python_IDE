@@ -1,0 +1,28 @@
+
+;; ----- smex-history -----
+(
+ pop-global-mark
+ semantic-ia-show-summary
+ eval-buffer
+ hs-minor-mode
+ global-semantic-mru-bookmark-mode
+ list-packages
+ package-install
+)
+
+;; ----- smex-data -----
+(
+ (package-install . 3)
+ (list-packages . 2)
+ (neotree . 1)
+ (eval-buffer . 11)
+ (flycheck-mode . 2)
+ (flyspell-mode . 1)
+ (neotree-dir . 1)
+ (global-semantic-mru-bookmark-mode . 1)
+ (semantic-mrub-switch-tags . 2)
+ (hs-minor-mode . 1)
+ (hs-toggle-hiding . 1)
+ (semantic-ia-show-summary . 2)
+ (pop-global-mark . 2)
+)

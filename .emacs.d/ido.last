@@ -1,0 +1,53 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/hongyis/Dropbox/Programs/C/" . "git_core/")
+ ("/Users/hongyis/Dropbox/Programs/" . "C/")
+ ("/Users/hongyis/.emacs.d/" . "config/")
+ ("/Users/hongyis/Dropbox/" . "Programs/")
+ ("/Users/hongyis/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/hongyis/.emacs.d/config/"
+ "/Users/hongyis/Dropbox/Notes/"
+ "/Users/hongyis/"
+ "/Users/hongyis/Dropbox/Programs/C/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "wil-cpp.el"
+ "EmacsRef.org"
+ "wil-org-mode.el"
+ ".emacs"
+ "AltaVault.org"
+ "k_r.c"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/hongyis/" (22045 58979 0 0) "Public/" "Pictures/" "Music/" "Movies/" "Library/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zcompdump-Hongyi’s MacBook Pro-5.0.5" ".z" ".viminfo" ".Trash/" ".tmux.conf" ".ssh/" ".oh-my-zsh/" ".lesshst" ".ipython/" ".htoprc" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs" ".DS_Store" ".dropbox/" ".cisco/" ".CFUserTextEncoding" ".bash_history" ".anyconnect" "../" "./")
+
+ ("/Users/hongyis/Dropbox/Programs/C/git_core/" (22045 59281 0 0) "write-tree.c" "update-cache.c" "show-diff.c" "README" "read-tree.c" "read-cache.c" "Makefile" "init-db.c" "commit-tree.c" "cat-file.c" "cache.h" ".projectile" "../" "./")
+
+ ("/Users/hongyis/Dropbox/Programs/C/" (22045 58843 0 0) "zombie.c" "wchat.cpp" "TMP.out" "TMP.in" "tmp.cpp" "test.in" "temp.cpp" "temp.cc" "temp.c" "small-2.txt" "small-1.txt" "regexp_matcher.c" "refman-1.1.ps.ps.gz" "output1.txt" "output-large.txt" "memory-layout.c" "mark-sweep/" "logswan/" "Linux System Programming Talking Directly to the Kernel and C Library, Robert Love, 2ed, O'Reilly, 2013.pdf" "LED.cpp" "largeOut.txt" "large-3.txt" "large-2.txt" "large-1.txt" "k_r.c~" "k_r.c" "happy.cpp" "git_core/" "eee.c" "dli.c" "Debugging_with_gdb.pdf" "CTrapsAndPitfalls.pdf" "ctraps.pdf" "count_freq.cpp" "cJSON/" "annotated_redis_source/" "An_Introduction_to_GCC-Brian_Gough.pdf" "../" "./")
+
+ ("/Users/hongyis/.emacs.d/config/" (22045 58678 0 0) "wil-utils.el" "wil-smartcopy.el" "wil-python.el" "wil-org-mode.el" "wil-ido.el" "wil-cpp.el" "semantic-tag-folding.el" "powerline.el" "ido-ubiquitous.el" "ibuffer.el" "../" "./")
+
+ ("/Users/hongyis/Dropbox/Notes/" (22045 56440 0 0) "向死而生 Live Towards Death.txt" "YouShouldWriteBlogs.md" "Write.org" "work.org" "Wil_Log.md" "why-org-mode.org" "Website_Performance_Optimization" "Untitle1.md" "Translate_PythonPerformance.md" "Translate.txt" "Translate.tex" "Translate.out" "Translate.org" "Translate.log" "Translate.html" "Translate.aux" "TopCoder.org" "TIPS" "Thoughts.md" "The Essence of Abstraction.org" "temp.txt" "System_Programming.org~" "System_Programming.org" "SysNote.org" "SysAdmin_Mise.org.org" "SysAdmin4.md" "SysAdmin2.md" "Startup_SamAltman.org" "SophiesNotes.doc" "ShellNotes.org" "scratch.md" "ScrapeData.md" "RubyScratch.md" "RsyncNotes.md" "Recursion.js" "RecommendationLetter.org" "ReadingNotes.org" "PythonNotes.org" "PythonChallenge.md" "programming_twinkle.md" "PhoneInterview.md" "PersonalStatement.org" "Others/" "org4beginners.org" "org-mode.org" "org-mode" "NotesIndex/" "notes_of_definitive_guide_to_django.md" "NodeJS.org" "Network_Note.md" "NatureOfCS.md" "MyTrans.md" "MyScratch.org" "mongodb_notes.md" "MongoDB.org" "MITBBS面经.org" "Minecraft.org" "Metro.org" "Meetups.org" "Man-Month-Myth.org" "MacSetUp.org" "Mac-Miscellaneous.org" "ltxpng/" "LeetCode.org" "Lectures.md" "LatexNotes.org" "K_Edit_Distance_Problem.md" "JobHunting.org" "JavascriptNote.org" "Java_Notes.org" "Interview.org" "internship_大作战.md" "img/" "Hongyi_Exp.org" "haskell.md" "Hagtap.org" "GoRent.org" "Github_Tips.org" "ErlangNotes.org" "EmacsRef.org~" "EmacsRef.org" "EmacsLispReferenceManual.org" "EmacsConf.org" "Emacs_Reborn.md" "ELC_festival.pdf" "Eco.org" "EclipseRef.org" "deft-0.org" "CV_1.md" "cs_classes_selection.md" "cs_559ML.md" "cs_511_concurrent_programming.md" "CS660_Web.org" "CS631_APUE.org" "CS615_HW5.org" "CS615_HW5.html" "CS615_CTF.org" "CS615_ASA.org" "CS573_Security.org" "CS549_CloudComputing.org" "CS549_CloudComputing.html" "CS548_Enterprise.org" "CS547_Security.org" "CS545_HCI.org" "CS541_AI.org" "CS541 Midterm" "cryptography.md" "CPP.org" "concrete_math.md" "Career_Development.md" "Captcha.org" "C_Notes.org" "away-from-it.md" "AsciiDoc/" "Another-parsing-of-links-for-citations-with-pre-and-post-text..org" "AngularJs.org" "AltaVault.org~" "AltaVault.org" "Algorithms.org" "2012-12-25-ProGit.org" "0x03.md" "0x02.md" "0x00.md" "03-14-2014.md" ".hid" "../" "./")
+
+ ("/Users/hongyis/.emacs.d/" (22045 55126 0 0) "url/" "projectile-bookmarks.eld" "network-security.data" "irony/" "elpa/" "ede-projects.el" "config/" "auto-save-list/" "ac-comphist.dat" "../" "./")
+
+ ("/usr/include/sys/" (21979 26518 0 0) "xattr.h" "wait.h" "vstat.h" "vnode_if.h" "vnode.h" "vnioctl.h" "vmparam.h" "vmmeter.h" "vm.h" "vcmd.h" "vadvise.h" "utsname.h" "utfconv.h" "user.h" "unpcb.h" "unistd.h" "un.h" "uio.h" "ucred.h" "ucontext.h" "ubc.h" "types.h" "ttydev.h" "ttydefaults.h" "ttycom.h" "ttychars.h" "tty.h" "trace.h" "tprintf.h" "times.h" "timeb.h" "time.h" "termios.h" "syslog.h" "syslimits.h" "sysctl.h" "syscall.h" "sys_domain.h" "stdio.h" "statvfs.h" "stat.h" "spawn.h" "sockio.h" "socketvar.h" "socket.h" "signalvar.h" "signal.h" "shm.h" "semaphore.h" "sem.h" "select.h" "sdt.h" "sbuf.h" "resourcevar.h" "resource.h" "reboot.h" "rbtree.h" "random.h" "quota.h" "queue.h" "qos.h" "ptrace.h" "protosw.h" "proc_info.h" "proc.h" "posix_shm.h" "posix_sem.h" "poll.h" "pipe.h" "paths.h" "param.h" "netport.h" "msgbuf.h" "msg.h" "mount.h" "mman.h" "mbuf.h" "malloc.h" "lockstat.h" "lockf.h" "lock.h" "loadable_fs.h" "lctx.h" "kernel_types.h" "kernel.h" "kern_event.h" "kern_control.h" "kdebug.h" "kauth.h" "ipc.h" "ioctl_compat.h" "ioctl.h" "ioccom.h" "gmon.h" "filio.h" "filedesc.h" "file.h" "fcntl.h" "fasttrap_isa.h" "fasttrap.h" "event.h" "ev.h" "errno.h" "dtrace_impl.h" "dtrace_glue.h" "dtrace.h" "domain.h" "dkstat.h" "disk.h" "dirent.h" "dir.h" "conf.h" "cdefs.h" "buf.h" "attr.h" "appleapiopts.h" "aio.h" "acl.h" "acct.h" "_types.h" "_types/" "_symbol_aliasing.h" "_structs.h" "_select.h" "_pthread/" "_posix_availability.h" "_endian.h" "../" "./")
+
+ ("/Users/hongyis/Dropbox/Programs/" (22044 8892 0 0) "Yggdrasil/" "workspace/" "words.txt" "Web/" "temp1.py~" "temp1.py" "temp.java~" "temp.java" "Sysadmin/" "Scripts/" "Scheme/" "Scala/" "Ruby/" "RSSList.txt" "Redis/" "Python/" "Nodejs/" "NGINX_A Practical Guide_Preview Edition.pdf" "MongoDB/" "MinimumPathSum.py" "mean-subscribe/" "MEAN/" "Leetcode/" "Jobs/" "Javascript/" "Java/" "Haskell/" "Hacker/" "Go/" "Expressjs/" "Emacs/" "Cpp/" "C/" "ACM/" "#temp.txt#" "../" "./")
+
+ ("/Users/hongyis/Dropbox/" (22045 14940 0 0) "算法面试.pdf" "签证准备/" "用自爆图讲解PS光剑一般过程.pdf" "我与地坛-东东枪.mp3" "应用/" "z-jump.zip" "z-jump/" "Your Mobile Tickets for Chinese Indie Night on 10_09_15 at The Regent Theater, DTLA.pdf" "Your Itinerary.pdf" "y.jpg" "ww.jpg" "Write/" "wilbeibi_blog_src/" "wil_triangle.png" "wil_me_p.pxm" "wil_me.pxm" "wil_me.jpg" "wil_glass_1.jpg" "wil.png" "wechat.png" "wechat.jpg" "USACO/" "upload-backend/" "Unix_Shell_Scripting.md" "ultraman.jpg" "tshark_man_chinese.pdf" "TextExpander/" "temp.txt" "temp.java" "temp.class" "SysAdmin3.md" "SysAdmin.md" "SyncEdit/" "Sync/" "Swiss_Army_Knife/" "Super-Mario-Star.mp3" "study/" "stl.pdf" "spocktocat.png" "shy-tickets.pdf" "shareFolder/" "SHARE/" "Screenshots/" "Screenshot at 2013-07-22 16:51:03.png" "Screen Shot 2015-10-04 at 9.22.40 PM.png" "Scratch.ipynb" "Scan Oct 6, 2015, 10.52 AM.pdf" "Saves/" "R2D2.mp3" "qrcode_for_gh_4bc8c58ae97a_430.jpg" "Python-Scala-Java.doc" "PyChallenge/" "py_Hongyi_Shen.pdf" "Public/" "Programs/" "primer_ssh.md" "PlainText/" "Photos/" "penetration-testing-sample-report-2013.pdf" "Papers/" "p_large_5GB0_701a000055ce5c15.jpg" "OutStuff/" "OPT/" "Notes/" "NetApp/" "mt.pdf" "Metro/" "me.jpeg" "Material/" "Makefile" "lsof_man_chinese.pdf" "learningCPP.md" "JobHunting/" "JinYong.png" "Jeroen Janssens - Obtaining, Scrubbing and Exploring Data at the Command Line #jan2014.pdf" "Icon
+" "HSHEN/" "HongyiShen_sys.pdf" "Genius_v0/" "File Oct 06, 10 48 30 AM.jpeg" "File Oct 06, 10 32 47 AM.jpeg" "File Apr 12, 21 09 14.jpeg" "File Apr 12, 21 08 36.jpeg" "Emacs/" "DayOne/" "Courses/" "Code/" "Captcha_cracker/" "Camera Uploads/" "Books/" "Blog/" "BackUp/" "avatar.psd" "APUE/" "Apps/" "AirPlane.class" "AirJet.class" "631/" "10384134 Acceptance Packet.pdf" ".ws.agile.1Password.settings" ".DS_Store" ".dropbox.cache/" ".dropbox" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
