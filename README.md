@@ -1,11 +1,25 @@
 # README
 
 ## Miscellaneous configs
+### Packages
++ neotree tree
++ powerlin
++ iedit
++ ido-ubiquitous
++ smex
++ ibuffer
++ deft
++ yasnippet
++ auto-complete
 
 ## C/C++ Environment
+### Packages
++ projectile
++ cedet
 
 ## Python Environment
-
+### Packages
++ elpy
 ## Org mode
 
 Screenshot:
