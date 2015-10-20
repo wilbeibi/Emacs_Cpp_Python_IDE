@@ -1,5 +1,5 @@
 # README
-
+[Detailed explanation in Chinese](http://wilbeibi.com/wiki/zh_CN/#!pages/emacs.md)
 ## Miscellaneous configs
 ### Packages
 + neotree tree
